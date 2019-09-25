@@ -60,6 +60,11 @@
 #title {
 	padding-left: 6rem;
 }
+
+.row { 
+	margin: 0;
+}
+
 /* Basic */
 
 	body {
@@ -465,7 +470,7 @@
 
 		&.portfolio {
 			width: 100%;
-			max-width: 375px;
+			max-width: 365px;
 			display: inline-block;
 			margin: 1rem;
 			background-color: #fff;
