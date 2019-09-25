@@ -57,6 +57,9 @@
 		)
 	));
 
+#title {
+	padding-left: 6rem;
+}
 /* Basic */
 
 	body {
@@ -421,6 +424,12 @@
 	}
 
 /* Button */
+	.portfolioList {
+		display: flex;
+		padding: 0;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
 	input[type="button"],
 	input[type="submit"],
@@ -453,6 +462,53 @@
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+
+		&.portfolio {
+			width: 100%;
+			max-width: 375px;
+			display: inline-block;
+			margin: 1rem;
+			background-color: #fff;
+
+			.thumbnail {
+				width: 100%;
+				position: relative;
+				padding-bottom: 56.25%;
+				overflow: hidden;
+			
+				img {
+					top: 0;
+					left: 0;
+					width: 100%;
+					min-height: 100%;
+					height: auto;
+					position: absolute;
+				}
+			}
+
+			.title {
+				font-size: 1.6rem;
+				font-weight: 600;
+			}
+
+			.description {
+				line-height: 1.5;
+				padding: 0 1em;
+				margin-bottom: 1rem;
+			}
+
+
+			footer {
+				margin: 0;
+				padding: 0 1em 1em;
+			}
+
+			.notice {
+				font-size: 1rem;
+				display: block;
+				line-height: 1.4;
+			}
+		}
 
 		header {
 			color: #666;

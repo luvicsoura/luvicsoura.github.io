@@ -33,8 +33,8 @@
 title: Luís Victor Oliveira
 subtitle: Web Developer
 description:
-author: Your Incredible Name
-email: your-email@example.com
+author: Luís Victor Oliveira
+email: victoroliveir.dev@gmail.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
@@ -47,8 +47,8 @@ twitter_url:
 facebook_url:
 googleplus_url:
 instagram_url:
-linkedin_url:
-github_url:
+linkedin_url: https://www.linkedin.com/in/luis-victor-oliveira-dev/
+github_url: https://github.com/luvicsoura
 pinterest_url:
 slack_url:
 dribbble_url:

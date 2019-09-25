@@ -1,0 +1,6 @@
+name: Desafio FrontEnd
+thumbnail: /assets/images/desafio-front-end.png
+client: Estante Virtual
+description: Pequeno web app desenvolvido sobre vue.js onde é possível gerir endereços e ter informações de distância,
+             temperatura, tempo e rota.
+link: https://desafio-frontend-aab3e.firebaseapp.com/#/
